@@ -40,5 +40,5 @@ cmake .. -G "MinGW Makefiles"
 
 如想直接下载可执行文件可从本页面右侧Releases中下载。
 
-本项目的地图生成策略参考了https://github.com/Hopson97/MineCraft-One-Week-Challenge中的数学模型，数据库和选择性渲染等部分实现细节参考了https://www.michaelfogleman.com/projects/craft/
+本项目的地图生成策略参考了https://github.com/Hopson97/MineCraft-One-Week-Challenge 中的数学模型，数据库和选择性渲染等部分实现细节参考了 https://www.michaelfogleman.com/projects/craft/
 
