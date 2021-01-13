@@ -15,3 +15,30 @@ Night
 
 
 
+#### 安装与编译
+
+本项目使用的OpenGL管理库为glfw和glad，在Library文件夹中已全部包含。
+
+请安装跨平台编译工具cmake
+
+并使用以下步骤编译
+
+```
+mkdir Build
+cd Build
+```
+
+若采用Mingw编译器请使用
+
+```
+cmake .. -G "MinGW Makefiles"
+```
+
+若使用Visual Studio系列编译器，请使用cmake-gui进行编译，编译平台选项选择“Win32”
+
+![image-20210112122238475](https://github.com/SAOHPRWHG/ToyMC/blob/main/Fig/cmake-gui.png)
+
+如想直接下载可执行文件可从本页面右侧Releases中下载。
+
+本项目的地图生成策略参考了https://github.com/Hopson97/MineCraft-One-Week-Challenge中的数学模型，数据库和选择性渲染等部分实现细节参考了https://www.michaelfogleman.com/projects/craft/
+
